@@ -1,6 +1,6 @@
 const nums = [3, 4, 5, 6];
 
-const GreaterThanFour = nums.map((num) => {
+const GreaterThanFour = nums.filter((num) => {
   return num > 4;
 });
 
